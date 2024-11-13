@@ -31,7 +31,8 @@
             <a class="navbar-brand fw-bold" href="#">LuxeWinter</a>
 
             <!-- menu link  -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -49,90 +50,17 @@
             <div>
                 <form class="d-flex">
                     <div class="input-group">
-                        <span class="input-group-text"><a href="#"> <i class="fas fa-search "></i></a></span>
-                        <input class="form-control" type="search" placeholder="Tìm kiếm ..." aria-label="Search">
+                        <span class="input-group-text"><i class="fas fa-search "></i></span>
+                        <input class="form-control  me-1" type="search" placeholder="Tìm kiếm ..." aria-label="Search">
                     </div>
                 </form>
             </div>
         </div>
     </nav>
     <!-- end nav  -->
-
-
-    <!-- Main sản phẩm  -->
-    <main>
-        <!-- backgorud  -->
-        <div class="bg-image">
-        </div>
-        <!-- end backgroud  -->
-        <div class="container text-center mt-5">
-            <h1 class="display-4">Ngày và Giờ Hiện Tại</h1>
-            <p id="date-time" class="lead"></p>
-        </div>
-        <script>
-            function updateTime() {
-                const now = new Date();
-                const dateString = now.toLocaleString(); // Định dạng "DD/MM/YYYY, HH:MM:SS"
-                document.getElementById("date-time").textContent = dateString;
-            }
-
-            setInterval(updateTime, 1000); // Cập nhật mỗi giây
-            updateTime(); // Gọi ngay lập tức để hiển thị thời gian ban đầu
-        </script>
-        <div class="container">
-            <!-- Row 1 -->
-            <div class="row mb-4">
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 1">
-                    <h5 class="mt-2">Tên sản phẩm 1</h5>
-                    <p>Giá: 100.000đ</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 2">
-                    <h5 class="mt-2">Tên sản phẩm 2</h5>
-                    <p>Giá: 150.000đ</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 3">
-                    <h5 class="mt-2">Tên sản phẩm 3</h5>
-                    <p>Giá: 200.000đ</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 4">
-                    <h5 class="mt-2">Tên sản phẩm 4</h5>
-                    <p>Giá: 250.000đ</p>
-                </div>
-            </div>
-
-            <!-- Row 2 -->
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 1">
-                    <h5 class="mt-2">Tên sản phẩm 1</h5>
-                    <p>Giá: 100.000đ</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 2">
-                    <h5 class="mt-2">Tên sản phẩm 2</h5>
-                    <p>Giá: 150.000đ</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 3">
-                    <h5 class="mt-2">Tên sản phẩm 3</h5>
-                    <p>Giá: 200.000đ</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="https://saigonsneaker.com/wp-content/uploads/2021/10/Hoodie-Basic-Xanh-Duong-9.jpg" class="img-fluid" alt="Sản phẩm 4">
-                    <h5 class="mt-2">Tên sản phẩm 4</h5>
-                    <p>Giá: 250.000đ</p>
-                </div>
-            </div>
-
-    </main>
-
-    <!-- end main -->
-    <hr>
-    <!-- Footer -->
+    <!-- main -->
+    <!-- end main  -->
+    <!-- footer  -->
     <footer class="footer bg-white text-dark py-5">
         <div class="container">
             <div class="row">
@@ -152,7 +80,8 @@
                 <div class="col-md-3 text-center mb-3">
                     <h6 class="fw-bold uppercase-text ct">Đăng Kí Nhận Thông Tin Mới</h6>
                     <form action="#" class="d-flex">
-                        <input type="text" class="form-control me-2" placeholder="Nhập Email Của Bạn" aria-label="Input">
+                        <input type="text" class="form-control me-2" placeholder="Nhập Email Của Bạn"
+                            aria-label="Input">
                         <button class="btn btn-primary" type="submit">Đăng Kí</button>
                     </form>
                 </div>
@@ -166,7 +95,8 @@
                         <i class="fab fa-instagram"></i> <!-- Instagram icon -->
                     </a>
                     <a href="#" class="col-4">
-                        <i class="fab fa-weixin"></i> <!-- Zalo icon (dùng icon WeChat vì Zalo không có icon chính thức từ Font Awesome) -->
+                        <i class="fab fa-weixin"></i>
+                        <!-- Zalo icon (dùng icon WeChat vì Zalo không có icon chính thức từ Font Awesome) -->
                     </a>
                     <a href="#" class="col-4">
                         <i class="fab fa-telegram-plane"></i> <!-- Telegram icon -->
@@ -202,6 +132,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- end footer -->
 </body>
 
 </html>
