@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+    .navbar {
+            border-bottom: 1px solid #ccc;
+        }
+    .mg-r{
+         margin-right:50px;
+    }
+    .mg-l{
+        margin-left:50px;
+    }
+    .footer {
+            background-color: #f8f9fa;
+            font-size: 0.9rem;
+         }
+
+        .footer p,
+        .footer a {
+            color: #333;
+        }
+
+    .footer a:hover {
+            color: #ff5733;
+            text-decoration: underline;
+        }
+
+        .mg-l {
+            margin-left: 15px;
+        }
+
+        .btn-primary {
+            height: 37px; 
+            width: 120px;
+    
+        }
+        .uppercase-text {
+        text-transform: uppercase;
+        }
+        .wt{
+            width:200px;
+        }
+        form{
+            /* margin-left:100px; */
+        }
+        .bg-image {
+        background-image: url('https://png.pngtree.com/template/20210915/ourmid/pngtree-autumn-and-winter-new-fashion-childrens-clothing-banner-image_609875.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 500px; 
+        padding: 50px; 
+        }
+
+
